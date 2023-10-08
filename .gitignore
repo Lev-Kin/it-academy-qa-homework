@@ -1,0 +1,32 @@
+# Логи и директории
+log.*
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Среды выполнения и пакеты
+*/node_modules
+node_modules/
+jspm_packages/
+*.pnp
+*.pnp.js
+
+# Сборка директорий
+build/
+dist/
+
+# .env файлы
+.env*
+!.env.example
+
+# Редакторы
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+*.swp
+*.swo
+*.orig
