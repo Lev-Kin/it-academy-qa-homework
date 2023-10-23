@@ -23,6 +23,7 @@ function revArr(arr) {
     arr[i] = arr[arr.length - 1 - i];
     arr[arr.length - 1 - i] = temp;
   }
+  return arr;
 }
 console.log(revArr(arr));
 console.log("// =========");
@@ -37,7 +38,7 @@ function maxValueArr(arr) {
       max = arr[i];
     }
   }
-  return arr;
+  return max;
 }
 console.log(maxValueArr(arr2));
 console.log("// =========");
