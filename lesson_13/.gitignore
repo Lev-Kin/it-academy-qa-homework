@@ -1,0 +1,24 @@
+# Dependency directories
+node_modules/
+
+# TypeScript build output
+dist/
+
+# Environment variables
+.env
+
+# IDE specific files
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+*.log
