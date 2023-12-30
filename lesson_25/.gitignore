@@ -1,0 +1,12 @@
+# Игнорирование каталогов node_modules
+node_modules/
+
+# Игнорирование отчетов 
+reports/
+test-results/
+
+# Игнорирование логов и временных файлов
+npm-debug.log
+.npm/
+.nyc_output/
+
